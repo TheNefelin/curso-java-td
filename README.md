@@ -18,7 +18,6 @@
   git log
   
   curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
-  git remote add origin https://github.com/TheNefelin/curso-java-td.git
 
   git remote -v                     // view remote git url
   git remote remove origin          // remove gir url
