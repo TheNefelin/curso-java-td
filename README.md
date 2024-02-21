@@ -15,6 +15,7 @@
   git status                      // show modified file
   git add .                       // add all files for Commit
   git commit -m "First Commit"    // save First Commit
+  git push -u origin master
   git log
   
   curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
@@ -23,5 +24,4 @@
   git remote remove origin          // remove gir url
   git remote add origin [URL]       // set remote git url
   git remote set-url origin [URL]   // update remote git url
-  git push -u origin master
 ```
