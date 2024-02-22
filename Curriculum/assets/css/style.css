@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1rem;
+  margin: 0;
 }
 
 @media (width < 600px) {
@@ -36,6 +37,7 @@ h3 {
   border-radius: 50%;
   height: 15rem;
   border: 5px solid white;
+  margin: 1rem;
 }
 
 .container {
@@ -44,4 +46,16 @@ h3 {
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
+}
+
+.social {
+  width: 1rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
 }
