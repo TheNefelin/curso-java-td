@@ -1,0 +1,65 @@
+* {
+  box-sizing:  border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul {
+  background-color: black;
+  display: flex;
+  margin: 0;
+  padding: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav > ul img {
+  height: 1.5rem;
+}
+
+.banner {
+  position: relative;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.banner_txt {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 3rem;
+  text-align: right;
+  text-shadow: 3px 3px 3px black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.direction {
+  padding: 3rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.direction img {
+  margin: auto;
+  width: auto;
+  height: 9rem;
+}
+
+.direction p {
+  margin: 0;
+}
+
+.idle {
+  background-color: rgb(164, 69, 44);
+  padding: 3rem;
+}
