@@ -1,6 +1,23 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-Medium";
+  src: url("/MeetAndCoffee/assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
   src: url("/MeetAndCoffee/assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("/MeetAndCoffee/assets/fonts/Roboto-Thin.ttf");
+}
+
+
+:root {
+  --color01: rgb(0, 0, 0);
+  --color02: rgb(255, 255, 255);
+  --color03: rgb(164, 69, 44);
 }
 
 * {
@@ -8,7 +25,8 @@
 }
 
 html {
-  font-family: Roboto;
+  font-family: Roboto-Medium;
+  font-size: 16px;
 }
 
 body {
@@ -16,65 +34,131 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: var(--color02);
+}
+
 nav > ul {
-  background-color: black;
+  background-color: var(--color01);
   display: flex;
   margin: 0;
   padding: 1rem;
   align-items: center;
   gap: 1rem;
+  font-family: Roboto-Light;
+  font-size: 0.8rem;
 }
 
 nav > ul img {
   height: 1.5rem;
+  padding-left: 2rem;
 }
 
-.banner {
+header {
   position: relative;
 }
 
-h1 {
-  font-size: 2rem;
+header > img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
 }
 
-.banner_txt {
-  color: white;
+header > section {
   position: absolute;
-  top: 0;
+  top: 15%;
   right: 3rem;
+  color: var(--color02);
   text-align: right;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 2px 2px 2px var(--color01);
 }
 
-a {
-  text-decoration: none;
-  color: white;
+header > section > p {
+  font-family: Roboto-Light;
 }
 
-.direction {
-  padding: 4rem;
+.reunion {
   display: grid;
-  align-items: center;
-  text-align: center;
+  place-items: center;
+  padding: 4rem;
 }
 
-.direction img {
-  margin: auto;
-  width: auto;
-  height: 9rem;
+.reunion > img {
+  height: 8rem;
 }
 
-.direction p {
+.reunion p {
+  font-family: Roboto-Light;
   margin: 0;
 }
 
-.idle {
-  background-color: rgb(164, 69, 44);
+article {
+  background-color: var(--color03);
   padding: 3rem;
   display: flex;
-  gap: 1rem;  
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
-.idle > img {
-  height: 10rem;
+article > img {
+  height: 8rem;
+}
+
+article > section {
+  color: var(--color02);
+  max-width: 22rem;
+  font-family: Roboto-Thin;
+  font-size: 0.7rem;
+
+  display: grid;
+  gap: 0.5rem;
+}
+
+article > section > div > * {
+  margin: 0;
+}
+
+.galeria {
+  text-align: center;
+  padding: 2rem;
+}
+
+.galeria > div {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.galeria p {
+  font-family: Roboto-Light;
+  display: grid;
+  gap: 1rem;
+}
+
+.galeria img {
+  height: 5rem;
+  margin: auto;
+}
+
+footer {
+  font-family: Roboto-Thin;
+  font-size: 0.7rem;
+  text-align: center;
+  color: var(--color02);
+  background-color: var(--color01);
+  padding: 0.5rem;
+}
+
+footer > section {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+.icons {
+  height: 1.8rem;
 }

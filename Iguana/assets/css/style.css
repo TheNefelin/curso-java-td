@@ -13,6 +13,9 @@
   src: url("/Iguana/assets/fonts/Raleway-Thin.ttf");
 }
 
+* {
+  box-sizing:  border-box;
+}
 
 :root {
   --color01: rgb(255, 255, 255);
