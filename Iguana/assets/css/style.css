@@ -68,7 +68,9 @@ header > img {
 
 .caract > div {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  gap: 8rem;
+  justify-content: center;
 }
 
 .caract p {
@@ -76,6 +78,7 @@ header > img {
   display: grid; 
   place-items: center;
   gap: 1rem;
+  min-width: 10rem;
 }
 
 .icon {
