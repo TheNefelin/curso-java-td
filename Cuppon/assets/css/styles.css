@@ -34,6 +34,8 @@ nav img {
 
 .card {
   padding: 0;
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card hr {
@@ -45,14 +47,12 @@ nav img {
   color: var(--black);
 }
 
-.card-name {
+.card-name, .card-address {
   margin: 0;
   color: var(--grey);
 }
 
 .card-address {
-  margin: 0;
-  color: var(--grey);
   font-size: 0.8rem;
 }
 
@@ -66,10 +66,6 @@ nav img {
 }
 
 /* form */
-main {
-  padding: 0;
-  margin: 0;
-}
 
 input::-webkit-input-placeholder {
   color: var(--grey) !important;
