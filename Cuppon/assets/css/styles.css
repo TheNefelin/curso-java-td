@@ -1,0 +1,114 @@
+/* color palette */
+
+:root {
+  --black: rgb(33, 37, 41);
+  --grey: rgb(112, 112, 112);;
+  --light: rgb(248, 249, 250);
+  --white: rgb(255, 255, 255);
+  --green: rgb(40, 167, 69);
+}
+
+/* fonts */
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  font-size: 16px;
+}
+
+/* navbar */
+
+nav img {
+  height: 1.5rem;
+}
+
+/* card */
+
+.card {
+  padding: 0;
+}
+
+.card hr {
+  margin: 0;
+}
+
+.card-description {
+  font-size: 1.3rem;
+  color: var(--black);
+}
+
+.card-name {
+  margin: 0;
+  color: var(--grey);
+}
+
+.card-address {
+  margin: 0;
+  color: var(--grey);
+  font-size: 0.8rem;
+}
+
+.card-price {
+  color: var(--grey);
+}
+
+.card-offer {
+  font-size: 1.25rem;
+  color: var(--green);
+}
+
+/* form */
+main {
+  padding: 0;
+  margin: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: var(--grey) !important;
+}
+
+input:-moz-placeholder {
+  color: var(--grey) !important;
+}
+
+.form-cupon {
+  color: var(--white);
+  background-color: var(--green);
+
+  display: grid;
+  place-items: center;
+  padding: 2rem 1rem;
+}
+
+.form-cupon div {
+  width: 100%;
+  max-width: 18rem;
+}
+
+.form-cupon button {
+  width: 7rem;
+}
+
+/* footer */
+
+footer {
+  color: var(--grey);
+  text-align: center;
+  padding: 1.5rem;
+
+  display: grid;
+  place-items: center;
+  gap: 0.5rem;
+}
+
+footer img {
+  height: 1.5rem;
+}
