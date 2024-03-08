@@ -1,6 +1,6 @@
 const resultado = document.querySelector("#resultado");
 
-//se define los operadores permitidos y las variables
+// se define los operadores permitidos y las variables
 const operadores = ["*", "/", "+", "-"];
 const calcular = [];
 let operador = "";
