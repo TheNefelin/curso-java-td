@@ -6,9 +6,13 @@
   --red: #dc3545;
 }
 
-.linea {
+.linea, .linea-2 {
   background-color: var(--black);
   height: 0.15rem;
+}
+
+.linea-2 {
+  width: 9rem;
 }
 
 .lobster-regular {
