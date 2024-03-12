@@ -18,12 +18,9 @@
   git branch -M main              // change branch name to main or other
   git pull origin main            // download proyect from GirHub
   git push -u origin master
-  git log
+  git log                         // commit history "q" for exit
   
   curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
 
-  git remote -v                     // view remote git url
-  git remote remove origin          // remove gir url
-  git remote add origin [URL]       // set remote git url
-  git remote set-url origin [URL]   // update remote git url
+
 ```
