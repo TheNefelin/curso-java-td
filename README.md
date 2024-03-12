@@ -22,5 +22,9 @@
   
   curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
 
-
+  git remote -v                     // view remote git url
+  git remote add origin [URL]       // set remote git url
+  git remote set-url origin [URL]   // update remote git url
+  git remote show origin
+  git remote remove origin          // remove gir url
 ```
