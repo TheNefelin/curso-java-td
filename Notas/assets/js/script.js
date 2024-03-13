@@ -28,3 +28,4 @@ function calcular(materia) {
 
   $(html).appendTo($(".table-group-divider"));
 };
+
